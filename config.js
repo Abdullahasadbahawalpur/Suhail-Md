@@ -67,7 +67,7 @@ global.SESSION_ID = process.env.SESSION_ID ||  "SUHAIL_07_57_08_03_ewogICJjcmVkc
 
 module.exports = {
 
-  menu: process.env.MENU || "", Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
+  menu: process.env.MENU ||"", Default ---------- If Not Choose then it Randomely Pic On e Of Them Each time **/
 
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
